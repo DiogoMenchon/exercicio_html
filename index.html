@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro</title>
     <style>
-        .diminuir-botão{
+        .diminuirbotão{
             width: 70px;
             height: 20px;
             font-size: 12px;
@@ -14,9 +14,11 @@
 </head>
 <body>
     <h1>Formulário de cadastro</h1>
-    <input type="text"placeholder="Nome"><br/>
-    <input type="email"placeholder="E-mail"><br/>
-    <input type="password"placeholder="Senha"><br/>
+    <form>
+        <label for="text">Nome</label><input type="text"><br/>
+        <label for="email">E-mail</label><input type="email"><br/>
+        <label for="password">Senha</label><input type="password"> <br/>
         <br><button class="diminuir-botão" type="submit">cadastrar</button>
+    </form>
 </body>
 </html>
